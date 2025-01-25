@@ -1,12 +1,13 @@
 # Changelog
 
-## 2021-08-23 v0.47.0 "Morrigan"
+## 2025-01-25 v0.47.0 "Morrigan"
 
 > Morrigan is a shapeshifting Celtic goddess of war and fate whose name means either "great queen" or "phantom queen". She is associated with crows and ravens and is sometimes depicted as a triple-goddess called "The Morrigan". The names of the individual goddesses varies by source; Badb and Macha are common, with either Nemain or Anand joining them. She is the wife of The Dagda.
 
 Celtic:
 
 - Shortened the time it takes for the Aonach to start from 60 to 14 days.
+- Fixed critical bug with aonach file that could cause event spam.
 - Clans of Danu forces either Cognatic or Absolute Cognatic, not just Absolute.
   - Agnatic will no longer be the default for Druidic titles given out with Clans of Danu active.
 
