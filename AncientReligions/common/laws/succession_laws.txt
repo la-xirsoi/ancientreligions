@@ -1495,8 +1495,8 @@ gender_laws = {
 				NOT = { religion = britannic_pagan }
 				NOT = { has_religion_feature = religion_matriarchal }
 				NOT = { has_religion_feature = religion_equal }
-				NOT = { has_religion_feature = religion_feature_egyptian }
-				NOT = { has_religion_feature = religion_feature_celtic }
+				#NOT = { has_religion_feature = religion_feature_egyptian }
+				#NOT = { has_religion_feature = religion_feature_celtic }
 				OR = {
 					NOT = { tier = baron }
 					is_theocracy = yes
@@ -1598,7 +1598,13 @@ gender_laws = {
 					value = all
 				}
 			}
-			
+			modifier = {
+				factor = 0
+				OR = {
+					has_religion_feature = religion_feature_celtic
+					has_religion_feature = religion_feature_egyptian
+				}
+			}
 			modifier = {
 				factor = 100
 				holder_scope = {

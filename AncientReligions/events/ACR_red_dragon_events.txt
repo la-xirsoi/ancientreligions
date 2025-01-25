@@ -26,7 +26,7 @@ narrative_event = {
 	
 	only_rulers = yes
 	has_dlc = "The Old Gods"
-	has_global_flag = celtic_pagan_reformation
+	has_global_flag = celtic_reformation
 	
 	trigger = {
 		NOT = {

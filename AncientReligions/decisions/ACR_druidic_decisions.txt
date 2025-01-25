@@ -38,7 +38,7 @@ decisions = {
 			prestige = 100
 			character_event = { id = celtic.1193 tooltip = tailteann_invite }
 			hidden_tooltip = {
-				character_event = { id = celtic.1191 days = 60 } # Aonach starts
+				character_event = { id = celtic.1191 days = 14 } # Aonach starts
 				clr_character_flag = tailteann_has_ended
 				any_realm_character = {
 					limit = {

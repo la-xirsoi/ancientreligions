@@ -1098,7 +1098,7 @@ character_event = {
 	id = hellenic.50
 	hide_window = yes
 
-	is_triggered_only = yes
+	is_triggered_only = yes # this is disabled because vanilla has Myrmidons
 	
 	religion = catholic
 

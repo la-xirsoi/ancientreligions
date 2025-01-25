@@ -1,5 +1,21 @@
 # Changelog
 
+## 2025-01-25 v0.47.0 "Morrigan"
+
+> Morrigan is a shapeshifting Celtic goddess of war and fate whose name means either "great queen" or "phantom queen". She is associated with crows and ravens and is sometimes depicted as a triple-goddess called "The Morrigan". The names of the individual goddesses varies by source; Badb and Macha are common, with either Nemain or Anand joining them. She is the wife of The Dagda.
+
+Celtic:
+
+- Shortened the time it takes for the Aonach to start from 60 to 14 days.
+- Fixed critical bug with aonach file that could cause event spam.
+- Clans of Danu forces either Cognatic or Absolute Cognatic, not just Absolute.
+  - Agnatic will no longer be the default for Druidic titles given out with Clans of Danu active.
+
+Hellenic:
+
+- Disabled the Roman mayor events *even harder* than I did 3 years ago, because apparently they were still responsible for CTDs.
+
+
 ## 2020-07-14 v0.46.2 "Kamutef"
 
 > Kamutef was an aspect of the minor god Min, himself an aspect of Horus. Kamutef represented the cycle of regeneration of gods and kings. Said to be both the son (as an indirect aspect of Horus) and consort of Isis, Kamutef is born by impregnating Isis who gives birth to Kamutef, who then creates himself again in a never ending cycle.
